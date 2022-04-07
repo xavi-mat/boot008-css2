@@ -49,6 +49,17 @@ footer {
     display: none;
 }
 
+.side-info {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #FFFFFF88;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 150%;
+}
+
 /* ---------- Tablet size ---------- */
 @media screen and (min-width: 768px) {
     .central-container {

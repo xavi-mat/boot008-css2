@@ -7,7 +7,7 @@ https://github.com/TheBridge-FullStackDeveloper/css-pp-responsive
 
 ## TODO
 
-- [ ] Right informative tab
+- [x] Right informative tab
 - [ ] More content in `content` section, with different paragraphs.
 
 ## In this repo
