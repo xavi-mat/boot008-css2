@@ -11,7 +11,8 @@ main {
     padding: 1rem;
 }
 
-h2, p {
+h2,
+p {
     margin-bottom: 0.8rem;
 }
 
@@ -91,6 +92,14 @@ footer {
         margin: auto;
         display: flex;
         justify-content: center;
+    }
+
+    .content {
+        width: 75%;
+    }
+
+    .sidemenu {
+        width: 25%;
     }
 
     .tablet {
