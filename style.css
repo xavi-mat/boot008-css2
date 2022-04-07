@@ -10,12 +10,15 @@ main {
     background-color: black;
     padding: 1rem;
 }
+
 h2 {
     margin-bottom: 0.8rem;
 }
+
 header {
     background-color: blue;
 }
+
 aside {
     background-color: blueviolet;
 }
@@ -29,15 +32,19 @@ footer {
     padding: 2em;
     margin-bottom: 0.3rem;
 }
+
 .hero {
     background-color: red;
 }
+
 .content {
     background-color: green;
 }
+
 .tablet {
     display: none;
 }
+
 .desktop {
     display: none;
 }
@@ -47,16 +54,20 @@ footer {
     .central-container {
         display: flex;
     }
+
     .content {
         width: 66%;
         margin-right: 0.3rem;
     }
+
     .sidemenu {
         width: 33%;
     }
+
     .tablet {
         display: inline;
     }
+
     .phone {
         display: none;
     }
@@ -70,9 +81,11 @@ footer {
         display: flex;
         justify-content: center;
     }
+
     .tablet {
         display: none;
     }
+
     .desktop {
         display: inline;
     }
