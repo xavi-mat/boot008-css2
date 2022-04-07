@@ -1,5 +1,7 @@
 # boot008-css2
 
+Exercise:
+
 https://github.com/TheBridge-FullStackDeveloper/css-pp-responsive
 
 
@@ -7,3 +9,8 @@ https://github.com/TheBridge-FullStackDeveloper/css-pp-responsive
 
 - [ ] Right informative tab
 - [ ] More content in `content` section, with different paragraphs.
+
+## In this repo
+
+* `index.html` with fake content.
+* `styles.css` with css declarations.
