@@ -43,7 +43,7 @@ footer {
 }
 
 /* ---------- Tablet size ---------- */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .central-container {
         display: flex;
     }
@@ -63,7 +63,7 @@ footer {
 }
 
 /* ---------- Desktop size ---------- */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
     .central-container {
         max-width: 800px;
         margin: auto;
