@@ -1,32 +1,77 @@
 * {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main {
+    background-color: black;
+    padding: 1rem;
+}
+
+h2 {
+    margin-bottom: 0.8rem;
+}
+.padded {
+    padding: 2em;
+    margin-bottom: 0.3rem;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: aqua;
-    padding: 0.5em;
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-a {
-    all: unset;
-    cursor: pointer;
     background-color: blue;
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.hero {
+    background-color: red;
 }
-.card {
-    background-color: black;
-    color: white;
-    margin: 1rem;
-    width: 10em;
-    padding: 1em;
+
+.content {
+    background-color: green;
+}
+
+aside {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: grey;
+}
+.tablet {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .central-container {
+        display: flex;
+    }
+    .content {
+        width: 66%;
+        margin-right: 0.3rem;
+    }
+    .sidemenu {
+        width: 33%;
+    }
+    .tablet {
+        display: inline;
+    }
+    .phone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .central-container {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: inline;
+    }
 }
