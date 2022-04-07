@@ -1,39 +1,39 @@
+/* ---------- Initial values ---------- */
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
+/* ---------- Container tags ---------- */
 main {
     background-color: black;
     padding: 1rem;
 }
-
 h2 {
     margin-bottom: 0.8rem;
-}
-.padded {
-    padding: 2em;
-    margin-bottom: 0.3rem;
 }
 header {
     background-color: blue;
 }
-
-.hero {
-    background-color: red;
-}
-
-.content {
-    background-color: green;
-}
-
 aside {
     background-color: blueviolet;
 }
 
 footer {
     background-color: grey;
+}
+
+/* ---------- Classes ---------- */
+.padded {
+    padding: 2em;
+    margin-bottom: 0.3rem;
+}
+.hero {
+    background-color: red;
+}
+.content {
+    background-color: green;
 }
 .tablet {
     display: none;
@@ -42,6 +42,7 @@ footer {
     display: none;
 }
 
+/* ---------- Tablet size ---------- */
 @media screen and (min-width: 600px) {
     .central-container {
         display: flex;
@@ -61,6 +62,7 @@ footer {
     }
 }
 
+/* ---------- Desktop size ---------- */
 @media screen and (min-width: 1000px) {
     .central-container {
         max-width: 800px;
