@@ -11,7 +11,7 @@ main {
     padding: 1rem;
 }
 
-h2 {
+h2, p {
     margin-bottom: 0.8rem;
 }
 
@@ -51,7 +51,7 @@ footer {
 
 .side-info {
     position: fixed;
-    top: 0.5rem;
+    top: 3rem;
     right: 0.5rem;
     background-color: #FFFFFF88;
     color: black;
@@ -87,7 +87,7 @@ footer {
 /* ---------- Desktop size ---------- */
 @media screen and (min-width: 1024px) {
     .central-container {
-        max-width: 800px;
+        max-width: 1024px;
         margin: auto;
         display: flex;
         justify-content: center;
