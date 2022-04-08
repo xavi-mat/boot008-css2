@@ -9,9 +9,9 @@
 main {
     background-color: black;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;          /* new line to avoid margin:auto */
+    flex-direction: column; /* new line to avoid margin:auto */
+    align-items: center;    /* new line to avoid margin:auto */
 }
 
 h2,
@@ -21,7 +21,7 @@ p {
 
 header {
     background-color: blue;
-    width: 100%;
+    width: 100%;            /* new line to avoid margin:auto */
 }
 
 aside {
@@ -30,7 +30,7 @@ aside {
 
 footer {
     background-color: grey;
-    width: 100%;
+    width: 100%;            /* new line to avoid margin:auto */
 }
 
 /* ---------- Classes ---------- */
@@ -41,7 +41,7 @@ footer {
 
 .hero {
     background-color: red;
-    width: 100%;
+    width: 100%;            /* new line to avoid margin:auto */
 }
 
 .content {
@@ -95,6 +95,7 @@ footer {
 @media screen and (min-width: 1024px) {
     .central-container {
         max-width: 1024px;
+        /* margin: auto; */   /* Delete this line to avoid margin:auto */
         display: flex;
     }
 
